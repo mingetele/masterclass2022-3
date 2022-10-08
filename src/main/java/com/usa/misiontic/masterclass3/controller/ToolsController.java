@@ -1,7 +1,6 @@
 package com.usa.misiontic.masterclass3.controller;
 
 
-import com.usa.misiontic.masterclass3.entities.Product;
 import com.usa.misiontic.masterclass3.entities.Tools;
 import com.usa.misiontic.masterclass3.service.ToolsService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/Tools")
+@RequestMapping("/api/Tool")
 public class ToolsController {
 
 
